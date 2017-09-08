@@ -49,6 +49,8 @@ defmodule Test do
   defonsteroids fib(0), do: 0
   defonsteroids fib(1), do: 1
   defonsteroids fib(n) do
+    1 |> IO.inspect
+    1 |> IO.inspect 
     fib(n-1) + fib(n-2)
   end
 end
